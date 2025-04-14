@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="exemplo.js"></script>
+    <script>
+        // login e swnha
+        const userPadrao = "admin";
+        const senhaPadrao = "admin";
+
+        var user = prompt("insira o nome de usuário:");
+        var senha = prompt("insira a semha");
+
+        if(validar(userPadrao, senhaPadrao,user,senha)==true){
+            alert("login efetuado com sucesso!")
+        }else {
+            alert("dados inválidos");
+        }
+    </script>
+</body>
+</html>
