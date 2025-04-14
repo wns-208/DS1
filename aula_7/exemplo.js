@@ -15,3 +15,17 @@ function validar(usuarioP,senhaP,usuarioI,senhaI){
         return false;
     }
 }
+function soma(n1, n2, n3){
+    return(n1+n2+n3)/3;
+}
+function calcularMedia(){
+    if(media<4){
+        return"reprovado";
+    } else if(media>=4 && media<=6){
+        return"recupereração";
+    } else{
+        return"aprovado";
+    }
+    
+
+}
